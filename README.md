@@ -10,7 +10,7 @@ Your boss wants you to demonstrate the success of this code by running a query o
 
 You must create a Python code 'etl_project_gdp.py' that performs all the required tasks.
 
-## Project Information:
+## Project Description:
 - Utilized web scraping techniques and the requests API to extract up-to-date GDP data for all countries from the specified IMF source.
 - Transformed raw data into the required format, rounding GDP values to two decimal places for precision.
 - Loaded the processed data into a JSON file ('Countries_by_GDP.json') for easy accessibility and into a database table ('Countries_by_GDP') within a local SQLite database ('World_Economies.db'), with relevant fields for country names and GDP values in billion USD.
